@@ -1,0 +1,38 @@
+* {
+    font-family: Inter, sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+.about-me {
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me__logo {
+    width: 30px;
+    height: 30px;
+}
+
+
+.main-stuff {
+    max-width: 500px;
+}
+
+@media only screen and (min-width: 768px) {
+    main {
+        flex-direction: row;
+    }
+}
