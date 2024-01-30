@@ -2,6 +2,14 @@
     font-family: Inter, sans-serif;
 }
 
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: rgb(166,252,64);
+    background: linear-gradient(0deg, rgba(166,252,64,1) 0%, rgba(255,255,255,1) 39%);
+}
+
 main {
     display: flex;
     flex-direction: column;
