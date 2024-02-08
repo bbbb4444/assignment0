@@ -7,7 +7,7 @@ body {
     margin: 0;
     padding: 0;
     background: rgb(166,252,64);
-    background: linear-gradient(0deg, rgba(166,252,64,1) 0%, rgba(255,255,255,1) 39%);
+    background: linear-gradient(0deg, rgba(166,252,64,1) 0%, rgba(255,255,255,1) 19%);
 }
 
 main {
@@ -17,8 +17,12 @@ main {
     align-items: center;
 }
 
-h1 {
+h1, h2 {
     margin-bottom: 0;
+}
+
+h2 {
+    margin-top: 2rem;
 }
 
 .about-me {
@@ -37,6 +41,10 @@ h1 {
 
 .main-stuff {
     max-width: 500px;
+}
+
+.technologies {
+    font-size: 0.8rem;
 }
 
 @media only screen and (min-width: 768px) {
